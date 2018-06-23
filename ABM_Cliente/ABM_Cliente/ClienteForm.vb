@@ -51,6 +51,7 @@
         Cliente.Nombre = TextBox2.Text
         Cliente.Direccion = TextBox3.Text
         Cliente.CategIva = Combocategiva.SelectedItem
+        Cliente.Saldo = TextBox4.Text
 
         Select Case operacion_
             Case "nuevo"
@@ -88,4 +89,7 @@
         Exit Sub
     End Sub
 
+    Private Sub ClienteForm_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class
